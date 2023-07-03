@@ -1356,7 +1356,7 @@
           "type": "spacing"
         },
         "border-width": {
-          "value": "{utrecht.form-control.invalid.border-width}",
+          "value": "0",
           "type": "borderWidth"
         },
         "padding-block-end": {
@@ -1368,7 +1368,7 @@
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{logius.space.inline.snail}",
+          "value": "{logius.space.inline.mouse}",
           "type": "spacing"
         },
         "padding-inline-start": {
