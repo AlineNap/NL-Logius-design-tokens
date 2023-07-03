@@ -4,23 +4,23 @@
       "typography": {
         "font-size": {
           "sm": {
-            "value": "14px",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "16px",
             "type": "fontSizes"
           },
+          "md": {
+            "value": "18px",
+            "type": "fontSizes"
+          },
           "lg": {
-            "value": "20px",
+            "value": "22px",
             "type": "fontSizes"
           },
           "xl": {
-            "value": "24px",
+            "value": "26px",
             "type": "fontSizes"
           },
           "2xl": {
-            "value": "32px",
+            "value": "40px",
             "type": "fontSizes"
           },
           "3xl": {
@@ -33,20 +33,24 @@
           }
         },
         "line-height": {
-          "xs": {
-            "value": "100%",
-            "type": "lineHeights"
-          },
           "sm": {
-            "value": "125%",
+            "value": "24",
             "type": "lineHeights"
           },
           "md": {
-            "value": "150%",
+            "value": "28",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "200%",
+            "value": "32",
+            "type": "lineHeights"
+          },
+          "xl": {
+            "value": "36",
+            "type": "lineHeights"
+          },
+          "2xl": {
+            "value": "56",
             "type": "lineHeights"
           }
         },
@@ -598,7 +602,7 @@
       },
       "border-radius": {
         "sm": {
-          "value": "2px",
+          "value": "4px",
           "type": "borderRadius"
         },
         "md": {
@@ -1343,11 +1347,11 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{logius.typography.line-height.sm}",
+            "value": "{logius.typography.line-height.md}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{logius.typography.font-size.xl}",
+            "value": "{utrecht.document.font-size}",
             "type": "fontSizes"
           }
         },
@@ -1490,6 +1494,10 @@
             "value": "0",
             "type": "spacing"
           }
+        },
+        "border-radius": {
+          "value": "{logius.border-radius.sm}",
+          "type": "borderRadius"
         }
       },
       "blockquote": {
