@@ -741,7 +741,7 @@
     "utrecht": {
       "root": {
         "background-color": {
-          "value": "{logius.color.gray.100}",
+          "value": "{logius.color.gray.200}",
           "type": "color"
         }
       },
@@ -751,12 +751,12 @@
           "type": "color"
         },
         "color": {
-          "value": "{logius.color.gray.900}",
+          "value": "{logius.color.gray.700}",
           "type": "color"
         },
         "inverse": {
           "background-color": {
-            "value": "{logius.color.gray.950}",
+            "value": "{logius.color.white}",
             "type": "color"
           },
           "color": {
@@ -766,7 +766,7 @@
         },
         "subtle": {
           "color": {
-            "value": "{logius.color.gray.600}",
+            "value": "{logius.color.gray.500}",
             "type": "color"
           }
         },
@@ -795,7 +795,7 @@
       },
       "heading": {
         "color": {
-          "value": "{logius.color.gray.900}",
+          "value": "{utrecht.document.color}",
           "type": "color"
         },
         "font-family": {
@@ -829,18 +829,18 @@
       },
       "interaction": {
         "color": {
-          "value": "{logius.color.violet.700}",
+          "value": "{logius.color.orange.300}",
           "type": "color"
         },
         "active": {
           "color": {
-            "value": "{logius.color.violet.900}",
+            "value": "{logius.color.green.400}",
             "type": "color"
           }
         },
         "hover": {
           "color": {
-            "value": "{logius.color.violet.800}",
+            "value": "{logius.color.orange.400}",
             "type": "color"
           }
         }
@@ -855,7 +855,7 @@
           "type": "color"
         },
         "outline-color": {
-          "value": "{logius.color.violet.700}",
+          "value": "{logius.color.violet.400}",
           "type": "color"
         },
         "inverse": {
@@ -895,8 +895,9 @@
           "type": "borderWidth"
         },
         "color": {
-          "value": "{logius.color.gray.950}",
-          "type": "color"
+          "value": "{utrecht.document.color}",
+          "type": "color",
+          "description": "Waarom verwijs je deze niet naar document color? Is dezelfde kleur en verwacht dat daar de keuze op is gebasseerd. "
         },
         "active": {
           "accent-color": {
@@ -916,7 +917,7 @@
             "type": "borderWidth"
           },
           "color": {
-            "value": "{logius.color.gray.950}",
+            "value": "{utrecht.document.color}",
             "type": "color"
           }
         },
@@ -974,7 +975,7 @@
             "type": "borderWidth"
           },
           "color": {
-            "value": "{logius.color.gray.950}",
+            "value": "{utrecht.document.color}",
             "type": "color"
           }
         },
@@ -1006,7 +1007,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.gray.950}",
+            "value": "{utrecht.document.color}",
             "type": "color"
           }
         },
@@ -1044,11 +1045,11 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.blue.600}",
+            "value": "{logius.color.blue.300}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.blue.600}",
+            "value": "{logius.color.blue.300}",
             "type": "color"
           }
         },
@@ -1058,11 +1059,11 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.red.600}",
+            "value": "{logius.color.red.300}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.red.600}",
+            "value": "{logius.color.red.300}",
             "type": "color"
           }
         },
@@ -1072,11 +1073,11 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.green.600}",
+            "value": "{logius.color.green.300}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.green.600}",
+            "value": "{logius.color.green.300}",
             "type": "color"
           }
         },
@@ -1086,11 +1087,11 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{logius.color.yellow.600}",
+            "value": "{logius.color.yellow.300}",
             "type": "color"
           },
           "color": {
-            "value": "{logius.color.yellow.600}",
+            "value": "{logius.color.yellow.300}",
             "type": "color"
           }
         }
