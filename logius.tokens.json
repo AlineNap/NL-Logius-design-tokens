@@ -1397,11 +1397,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{logius.space.block.snail}",
+            "value": "{logius.space.block.flea}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{logius.space.block.snail}",
+            "value": "{logius.space.block.flea}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -1409,7 +1409,7 @@
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{logius.space.inline.ant}",
+            "value": "0",
             "type": "spacing"
           },
           "positive": {
@@ -1479,15 +1479,15 @@
         },
         "message": {
           "row-gap": {
-            "value": "{logius.space.column.snail}",
+            "value": "0",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{logius.space.block.snail}",
+            "value": "0",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{logius.space.block.beetle}",
+            "value": "0",
             "type": "spacing"
           }
         }
