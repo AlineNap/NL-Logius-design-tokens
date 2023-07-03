@@ -4420,12 +4420,16 @@
       }
     }
   },
+  "component2/alert": {},
+  "component2/button": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "brand",
       "common",
-      "component"
+      "component",
+      "component2/alert",
+      "component2/button"
     ]
   }
 }
