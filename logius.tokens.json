@@ -68,10 +68,6 @@
           "primary": {
             "value": "RijksoverheidSansWebText",
             "type": "fontFamilies"
-          },
-          "secondary": {
-            "value": "RijksoverheidSansWebText",
-            "type": "fontFamilies"
           }
         }
       },
@@ -616,6 +612,10 @@
         "round": {
           "value": "999px",
           "type": "borderRadius"
+        },
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
         }
       },
       "border-width": {
@@ -775,7 +775,7 @@
           }
         },
         "font-family": {
-          "value": "{logius.typography.font-family.secondary}",
+          "value": "{logius.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -855,7 +855,7 @@
           "type": "color"
         },
         "color": {
-          "value": "{logius.color.black}",
+          "value": "{logius.color.gray.700}",
           "type": "color"
         },
         "outline-color": {
