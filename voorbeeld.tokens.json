@@ -1278,7 +1278,7 @@
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{logius.color.subdued.background}"
+              "value": "{utrecht.button.disabled.background-color}"
             },
             "border-color": {
               "value": "transparent",
@@ -1286,7 +1286,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{logius.color.subdued.foreground}"
+              "value": "{utrecht.button.disabled.color}"
             }
           },
           "focus": {
@@ -1352,7 +1352,7 @@
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{utrecht.button.primary-action.disabled.background-color}"
+              "value": "{utrecht.button.disabled.background-color}"
             },
             "border-color": {
               "type": "color",
@@ -1360,7 +1360,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{utrecht.button.primary-action.disabled.color}"
+              "value": "{utrecht.button.disabled.color}"
             }
           },
           "focus": {
@@ -1398,15 +1398,15 @@
         },
         "background-color": {
           "type": "color",
-          "value": "transparent"
+          "value": "{logius.color.brand.default}"
         },
         "border-color": {
           "type": "color",
-          "value": "{voorbeeld.color.gray.900}"
+          "value": "transparant"
         },
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.gray.900}"
+          "value": "{logius.color.onEmphasis.foreground}"
         },
         "border-radius": {
           "type": "borderRadius",
@@ -1446,15 +1446,15 @@
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.50}"
+              "value": "{utrecht.button.subtle.background-color}"
             },
             "border-color": {
               "type": "color",
-              "value": "transparent"
+              "value": "{utrecht.button.subtle.border-color}"
             },
             "color": {
               "type": "color",
-              "value": "{utrecht.interaction.hover.color}"
+              "value": "{logius.color.brand.hover}"
             }
           },
           "background-color": {
@@ -1467,20 +1467,20 @@
           },
           "color": {
             "type": "color",
-            "value": "{utrecht.interaction.color}"
+            "value": "{logius.color.brand.default}"
           },
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{utrecht.button.subtle.background-color}"
             },
             "border-color": {
               "type": "color",
-              "value": "transparent"
+              "value": "{utrecht.button.subtle.border-color}"
             },
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{utrecht.button.disabled.color}"
             }
           },
           "focus": {
@@ -1534,7 +1534,7 @@
         },
         "disabled": {
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{logius.color.subdued.background}",
             "type": "color"
           },
           "border-color": {
@@ -1542,7 +1542,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{logius.color.subdued.foreground}",
             "type": "color"
           }
         },
@@ -2481,10 +2481,10 @@
         "icon": {
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{logius.icon-size.default}"
           },
           "margin-inline": {
-            "value": "{voorbeeld.space.inline.ant}",
+            "value": "{logius.space.05-x}",
             "type": "spacing"
           }
         },
