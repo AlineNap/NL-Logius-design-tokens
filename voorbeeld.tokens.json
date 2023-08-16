@@ -2322,11 +2322,11 @@
         },
         "color": {
           "type": "color",
-          "value": "{utrecht.interaction.color}"
+          "value": "{logius.color.donkerblauw.300}"
         },
         "text-decoration-color": {
           "type": "color",
-          "value": "{utrecht.interaction.color}"
+          "value": "{utrecht.link.color}"
         },
         "active": {
           "color": {
