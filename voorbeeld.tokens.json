@@ -900,73 +900,73 @@
       "alert": {
         "heading": {
           "font-family": {
-            "value": "{utrecht.heading.font-family}",
+            "value": "{utrecht.heading-4.font-family}",
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{utrecht.heading.font-weight}",
+            "value": "{utrecht.heading-4.font-weight}",
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{voorbeeld.typography.line-height.sm}",
+            "value": "{utrecht.heading-4.line-height}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{voorbeeld.typography.font-size.xl}",
+            "value": "{utrecht.heading-4.font-size}",
             "type": "fontSizes"
           }
         },
         "column-gap": {
-          "value": "{voorbeeld.space.column.snail}",
+          "value": "{logius.space.1-x}",
           "type": "spacing"
         },
         "border-width": {
-          "value": "{utrecht.form-control.invalid.border-width}",
+          "value": "{logius.border-width.none}",
           "type": "borderWidth"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{logius.space.105-x}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{logius.space.105-x}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{logius.space.105-x}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{logius.space.105-x}",
           "type": "spacing"
         },
         "informative": {
           "background-color": {
-            "value": "{utrecht.feedback.informative.background-color}",
+            "value": "{logius.color.feedback.info.subdued}",
             "type": "color"
           },
           "border-color": {
-            "value": "{utrecht.feedback.informative.border-color}",
+            "value": "transparant",
             "type": "color"
           },
           "color": {
-            "value": "{utrecht.document.color}",
+            "value": "{logius.color.foreground}",
             "type": "color"
           }
         },
         "icon": {
           "informative": {
             "color": {
-              "value": "{utrecht.feedback.informative.color}",
+              "value": "{logius.color.feedback.info.default}",
               "type": "color"
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{logius.space.025-x}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{logius.space.025-x}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -974,85 +974,85 @@
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.ant}",
+            "value": "0",
             "type": "spacing"
           },
           "positive": {
             "color": {
-              "value": "{utrecht.feedback.positive.color}",
+              "value": "{logius.color.feedback.success.default}",
               "type": "color"
             }
           },
           "negative": {
             "color": {
-              "value": "{utrecht.feedback.negative.color}",
+              "value": "{logius.color.feedback.error.default}",
               "type": "color"
             }
           },
           "warning": {
             "color": {
-              "value": "{utrecht.feedback.warning.color}",
+              "value": "{logius.color.feedback.warning.default}",
               "type": "color"
             }
           },
           "size": {
             "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+            "value": "{logius.icon-size.large}"
           }
         },
         "negative": {
           "background-color": {
-            "value": "{utrecht.feedback.negative.background-color}",
+            "value": "{logius.color.feedback.error.subdued}",
             "type": "color"
           },
           "border-color": {
-            "value": "{utrecht.feedback.negative.border-color}",
+            "value": "transparant",
             "type": "color"
           },
           "color": {
-            "value": "{utrecht.document.color}",
+            "value": "{logius.color.foreground}",
             "type": "color"
           }
         },
         "positive": {
           "background-color": {
-            "value": "{utrecht.feedback.positive.background-color}",
+            "value": "{logius.color.feedback.success.subdued}",
             "type": "color"
           },
           "border-color": {
-            "value": "{utrecht.feedback.positive.border-color}",
+            "value": "transparant",
             "type": "color"
           },
           "color": {
-            "value": "{utrecht.document.color}",
+            "value": "{logius.color.foreground}",
             "type": "color"
           }
         },
         "warning": {
           "background-color": {
-            "value": "{utrecht.feedback.warning.background-color}",
+            "value": "{logius.color.feedback.warning.subdued}",
             "type": "color"
           },
           "border-color": {
-            "value": "{utrecht.feedback.warning.border-color}",
+            "value": "transparant",
             "type": "color"
           },
           "color": {
-            "value": "{utrecht.document.color}",
+            "value": "{logius.color.foreground}",
             "type": "color"
           }
         },
         "message": {
           "row-gap": {
-            "value": "{voorbeeld.space.column.snail}",
+            "value": "0",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "0",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.beetle}",
+            "value": "0",
             "type": "spacing"
           }
         }
