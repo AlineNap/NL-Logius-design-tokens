@@ -1290,7 +1290,7 @@
             }
           },
           "font-weight": {
-            "value": "Bold",
+            "value": "{utrecht.button.font-weight}",
             "type": "fontWeights"
           }
         },
@@ -1350,7 +1350,7 @@
             }
           },
           "font-weight": {
-            "value": "Bold",
+            "value": "{utrecht.button.font-weight}",
             "type": "fontWeights"
           },
           "active": {
@@ -1412,7 +1412,7 @@
         },
         "subtle": {
           "font-weight": {
-            "value": "Bold",
+            "value": "{utrecht.button.font-weight}",
             "type": "fontWeights"
           },
           "hover": {
