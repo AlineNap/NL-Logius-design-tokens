@@ -1289,37 +1289,9 @@
               "value": "{utrecht.button.disabled.color}"
             }
           },
-          "focus": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.focus.background-color}"
-            },
-            "border-color": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.focus.color}"
-            }
-          },
           "font-weight": {
             "value": "Bold",
             "type": "fontWeights"
-          },
-          "active": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.interaction.active.color}"
-            },
-            "border-color": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{voorbeeld.color.white}"
-            }
           }
         },
         "secondary-action": {
@@ -1482,34 +1454,6 @@
               "type": "color",
               "value": "{utrecht.button.disabled.color}"
             }
-          },
-          "focus": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.focus.background-color}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "transparent"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.focus.color}"
-            }
-          },
-          "active": {
-            "background-color": {
-              "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.100}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "transparent"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.interaction.active.color}"
-            }
           }
         },
         "line-height": {
@@ -1543,48 +1487,6 @@
           },
           "color": {
             "value": "{logius.color.subdued.foreground}",
-            "type": "color"
-          }
-        },
-        "focus": {
-          "background-color": {
-            "value": "{utrecht.focus.background-color}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "color": {
-            "value": "{utrecht.focus.color}",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{utrecht.interaction.hover.color}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{utrecht.interaction.hover.color}",
-            "type": "color"
-          }
-        },
-        "active": {
-          "background-color": {
-            "value": "{voorbeeld.color.gray.100}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{utrecht.interaction.active.color}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{utrecht.interaction.active.color}",
             "type": "color"
           }
         },
