@@ -2317,7 +2317,7 @@
     "utrecht": {
       "link": {
         "line-height": {
-          "value": "{utrecht.document.line-height}",
+          "value": "{logius.font.line-height.m}",
           "type": "lineHeights"
         },
         "color": {
@@ -2329,24 +2329,12 @@
           "value": "{utrecht.link.color}"
         },
         "active": {
-          "color": {
-            "type": "color",
-            "value": "{utrecht.interaction.active.color}"
-          },
           "text-decoration": {
             "value": "none",
             "type": "textDecoration"
           }
         },
         "focus": {
-          "background-color": {
-            "type": "color",
-            "value": "{utrecht.focus.background-color}"
-          },
-          "color": {
-            "type": "color",
-            "value": "{utrecht.focus.color}"
-          },
           "text-decoration": {
             "value": "none",
             "type": "textDecoration"
@@ -2359,7 +2347,7 @@
         "hover": {
           "color": {
             "type": "color",
-            "value": "{utrecht.interaction.hover.color}"
+            "value": "{logius.color.donkerblauw.400}"
           },
           "text-decoration": {
             "value": "none",
@@ -2368,12 +2356,6 @@
           "text-decoration-thickness": {
             "value": "auto",
             "type": "other"
-          }
-        },
-        "visited": {
-          "color": {
-            "type": "color",
-            "value": "{utrecht.interaction.color}"
           }
         },
         "text-decoration": {
@@ -2391,11 +2373,11 @@
           }
         },
         "font-size": {
-          "value": "{utrecht.document.font-size}",
+          "value": "{logius.font-size.m}",
           "type": "fontSizes"
         },
         "font-family": {
-          "value": "{utrecht.document.font-family}",
+          "value": "{logius.font-family.default}",
           "type": "fontFamilies"
         },
         "text-decoration-thickness": {
@@ -2407,7 +2389,7 @@
           "type": "other"
         },
         "font-weight": {
-          "value": "{utrecht.document.font-weight}",
+          "value": "Regular",
           "type": "fontWeights"
         }
       }
