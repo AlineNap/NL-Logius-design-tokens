@@ -457,33 +457,9 @@
         }
       },
       "space": {
-        "listItem": {
-          "value": "{logius.space.105-x} {logius.space.2-x}",
-          "type": "spacing"
-        },
         "sheet": {
           "value": "{logius.space.4-x} {logius.space.4-x}",
           "type": "spacing"
-        },
-        "icon-side": {
-          "value": "{logius.space.105-x}",
-          "type": "spacing"
-        },
-        "compensation-height": {
-          "default": {
-            "value": "10",
-            "type": "spacing",
-            "description": "Vertical-padding om items 48px hoog te maken. \n\nBijvoorbeeld: de button, checkboxes en radiobuttons met label & de accordion\n\nDeze items moeten in de code 8px spacing krijgen, met een minimum height van 48px wat met font-size-m(18px) met een line-height van 26px resulteert in 10px op desktop en 12px op mobiel. Dit is echter niet mogelijk in Figma."
-          },
-          "small": {
-            "value": "{logius.space.025-x}",
-            "type": "spacing",
-            "description": "Vertical-spacing om items 32px hoog te maken. \n\nBijvoorbeeld: de small button, de radiobutton & checkboxes met een label."
-          },
-          "icon": {
-            "value": "6",
-            "type": "spacing"
-          }
         }
       },
       "size": {
@@ -657,245 +633,7 @@
       }
     }
   },
-  "components/avatar": {
-    "nl": {
-      "avatar": {
-        "background-color": {
-          "value": "{utrecht.interaction.color}",
-          "type": "color"
-        },
-        "border-radius": {
-          "value": "{voorbeeld.border-radius.round}",
-          "type": "borderRadius"
-        },
-        "size": {
-          "value": "{utrecht.pointer-target.min-size}",
-          "type": "sizing"
-        },
-        "icon": {
-          "icon-size": {
-            "value": "{utrecht.icon.functional.size}",
-            "type": "sizing"
-          }
-        },
-        "border-color": {
-          "value": "transparent",
-          "type": "color"
-        },
-        "color": {
-          "value": "{voorbeeld.color.white}",
-          "type": "color"
-        },
-        "text": {
-          "font-family": {
-            "value": "{utrecht.document.font-family}",
-            "type": "fontFamilies"
-          },
-          "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
-            "type": "fontWeights"
-          },
-          "line-height": {
-            "value": "{utrecht.document.line-height}",
-            "type": "lineHeights"
-          },
-          "text-transform": {
-            "value": "uppercase",
-            "type": "textCase"
-          },
-          "font-size": {
-            "value": "{utrecht.document.font-size}",
-            "type": "fontSizes"
-          }
-        },
-        "border-width": {
-          "value": "{voorbeeld.border-width.sm}",
-          "type": "borderWidth"
-        },
-        "hover": {
-          "background-color": {
-            "value": "{utrecht.interaction.hover.color}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "color": {
-            "value": "{voorbeeld.color.white}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
-  "components/accordion": {
-    "utrecht": {
-      "accordion": {
-        "border-radius": {
-          "type": "borderRadius",
-          "value": "0px"
-        },
-        "section": {
-          "border-block-end-width": {
-            "type": "borderWidth",
-            "value": "{voorbeeld.border-width.sm}"
-          },
-          "border-width": {
-            "type": "borderWidth",
-            "value": "auto"
-          },
-          "border-color": {
-            "value": "{utrecht.line.border-color}",
-            "type": "color"
-          }
-        },
-        "body": {
-          "border-color": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "border-width": {
-            "type": "borderWidth",
-            "value": "{voorbeeld.border-width.lg}"
-          },
-          "padding-block-end": {
-            "value": "{voorbeeld.space.block.rabbit}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{voorbeeld.space.block.rabbit}",
-            "type": "spacing"
-          },
-          "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
-            "type": "spacing"
-          },
-          "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
-            "type": "spacing"
-          }
-        },
-        "button": {
-          "font-size": {
-            "value": "{utrecht.document.font-size}",
-            "type": "fontSizes"
-          },
-          "line-height": {
-            "value": "{utrecht.document.line-height}",
-            "type": "lineHeights"
-          },
-          "icon": {
-            "margin-inline": {
-              "value": "{voorbeeld.space.inline.beetle}",
-              "type": "spacing"
-            },
-            "size": {
-              "type": "sizing",
-              "value": "{utrecht.icon.functional.size}"
-            }
-          },
-          "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
-            "type": "spacing"
-          },
-          "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
-            "type": "spacing"
-          },
-          "hover": {
-            "background-color": {
-              "type": "color",
-              "value": "{voorbeeld.color.gray.100}"
-            },
-            "border-color": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.interaction.hover.color}"
-            }
-          },
-          "expanded": {
-            "background-color": {
-              "value": "{voorbeeld.color.gray.50}",
-              "type": "color"
-            },
-            "border-color": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.interaction.color}"
-            }
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{voorbeeld.color.gray.50}"
-          },
-          "border-color": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "color": {
-            "type": "color",
-            "value": "{utrecht.interaction.color}"
-          },
-          "focus": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.focus.background-color}"
-            },
-            "border-color": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.focus.color}"
-            }
-          },
-          "active": {
-            "background-color": {
-              "type": "color",
-              "value": "{voorbeeld.color.gray.200}"
-            },
-            "border-color": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.interaction.active.color}"
-            }
-          },
-          "border-width": {
-            "type": "borderWidth",
-            "value": "{voorbeeld.border-width.sm}"
-          },
-          "font-family": {
-            "value": "{utrecht.document.font-family}",
-            "type": "fontFamilies"
-          },
-          "font-weight": {
-            "value": "{utrecht.document.strong.font-weight}",
-            "type": "fontWeights"
-          }
-        }
-      }
-    }
-  },
-  "components/alert": {
+  "components/logius/alert": {
     "utrecht": {
       "alert": {
         "heading": {
@@ -1059,193 +797,7 @@
       }
     }
   },
-  "components/blockquote": {
-    "utrecht": {
-      "blockquote": {
-        "attribution": {
-          "font-size": {
-            "value": "{voorbeeld.typography.font-size.sm}",
-            "type": "fontSizes"
-          },
-          "font-family": {
-            "value": "{utrecht.document.font-family}",
-            "type": "fontFamilies"
-          },
-          "line-height": {
-            "value": "{voorbeeld.typography.line-height.md}",
-            "type": "lineHeights"
-          },
-          "font-weight": {
-            "value": "{utrecht.document.font-weight}",
-            "type": "fontWeights"
-          },
-          "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
-            "type": "spacing"
-          },
-          "color": {
-            "value": "{utrecht.document.subtle.color}",
-            "type": "color"
-          }
-        },
-        "content": {
-          "font-family": {
-            "value": "{utrecht.heading.font-family}",
-            "type": "fontFamilies"
-          },
-          "line-height": {
-            "value": "{voorbeeld.typography.line-height.sm}",
-            "type": "lineHeights"
-          },
-          "font-weight": {
-            "value": "{utrecht.document.font-weight}",
-            "type": "fontWeights"
-          },
-          "font-size": {
-            "value": "{voorbeeld.typography.font-size.xl}",
-            "type": "fontSizes"
-          },
-          "color": {
-            "value": "{utrecht.document.color}",
-            "type": "color"
-          }
-        },
-        "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "0px",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "0px",
-          "type": "spacing"
-        },
-        "background-color": {
-          "value": "transparent",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "components/breadcrumb": {
-    "utrecht": {
-      "breadcrumb": {
-        "line-height": {
-          "value": "{utrecht.document.line-height}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{utrecht.document.font-size}",
-          "type": "fontSizes"
-        },
-        "link": {
-          "icon": {
-            "size": {
-              "type": "sizing",
-              "value": "{utrecht.icon.functional.size}"
-            },
-            "margin-inline": {
-              "value": "{voorbeeld.space.inline.beetle}",
-              "type": "spacing"
-            }
-          },
-          "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-inline-end": {
-            "value": "0px",
-            "type": "spacing"
-          },
-          "padding-inline-start": {
-            "value": "0px",
-            "type": "spacing"
-          },
-          "color": {
-            "type": "color",
-            "value": "{utrecht.interaction.color}"
-          },
-          "active": {
-            "color": {
-              "type": "color",
-              "value": "{utrecht.interaction.active.color}"
-            },
-            "text-decoration": {
-              "value": "none",
-              "type": "textDecoration"
-            }
-          },
-          "focus": {
-            "background-color": {
-              "type": "color",
-              "value": "{utrecht.focus.background-color}"
-            },
-            "color": {
-              "type": "color",
-              "value": "{utrecht.focus.color}"
-            },
-            "text-decoration": {
-              "value": "none",
-              "type": "textDecoration"
-            }
-          },
-          "hover": {
-            "color": {
-              "type": "color",
-              "value": "{utrecht.interaction.hover.color}"
-            },
-            "text-decoration": {
-              "value": "none",
-              "type": "textDecoration"
-            }
-          },
-          "current": {
-            "color": {
-              "type": "color",
-              "value": "{utrecht.document.subtle.color}"
-            }
-          },
-          "text-decoration": {
-            "value": "underline",
-            "type": "textDecoration"
-          }
-        },
-        "divider": {
-          "size": {
-            "type": "sizing",
-            "value": "{voorbeeld.size.2xs}"
-          },
-          "color": {
-            "value": "{utrecht.document.subtle.color}",
-            "type": "color"
-          }
-        },
-        "margin-inline": {
-          "value": "{voorbeeld.space.inline.beetle}",
-          "type": "spacing"
-        },
-        "font-family": {
-          "value": "{utrecht.document.font-family}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{utrecht.document.font-weight}",
-          "type": "fontWeights"
-        }
-      }
-    }
-  },
-  "components/button": {
+  "components/logius/button": {
     "utrecht": {
       "button": {
         "primary-action": {
@@ -1497,6 +1049,674 @@
         "min-inline-size": {
           "type": "sizing",
           "value": "0"
+        }
+      }
+    }
+  },
+  "components/logius/link": {
+    "utrecht": {
+      "link": {
+        "line-height": {
+          "value": "{logius.font.line-height.m}",
+          "type": "lineHeights"
+        },
+        "color": {
+          "type": "color",
+          "value": "{logius.color.donkerblauw.300}"
+        },
+        "text-decoration-color": {
+          "type": "color",
+          "value": "{utrecht.link.color}"
+        },
+        "active": {
+          "text-decoration": {
+            "value": "none",
+            "type": "textDecoration"
+          }
+        },
+        "focus": {
+          "text-decoration": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "text-decoration-thickness": {
+            "value": "auto",
+            "type": "other"
+          }
+        },
+        "hover": {
+          "color": {
+            "type": "color",
+            "value": "{logius.color.donkerblauw.400}"
+          },
+          "text-decoration": {
+            "value": "none",
+            "type": "textDecoration"
+          },
+          "text-decoration-thickness": {
+            "value": "auto",
+            "type": "other"
+          }
+        },
+        "text-decoration": {
+          "value": "underline",
+          "type": "textDecoration"
+        },
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "{logius.icon-size.default}"
+          },
+          "margin-inline": {
+            "value": "{logius.space.05-x}",
+            "type": "spacing"
+          }
+        },
+        "font-size": {
+          "value": "{logius.font-size.m}",
+          "type": "fontSizes"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "text-decoration-thickness": {
+          "value": "auto",
+          "type": "other"
+        },
+        "text-underline-offset": {
+          "value": "auto",
+          "type": "other"
+        },
+        "font-weight": {
+          "value": "Regular",
+          "type": "fontWeights"
+        }
+      }
+    }
+  },
+  "components/logius/heading": {
+    "utrecht": {
+      "heading-1": {
+        "color": {
+          "type": "color",
+          "value": "{logius.color.foreground}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "Bold",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.2xl}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{logius.font-size.2xl}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-2": {
+        "color": {
+          "type": "color",
+          "value": "{logius.color.foreground}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading-1.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.xl}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{logius.font-size.xl}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-3": {
+        "color": {
+          "type": "color",
+          "value": "{logius.color.foreground}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading-1.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.l}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{logius.font-size.l}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-4": {
+        "color": {
+          "type": "color",
+          "value": "{logius.color.foreground}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading-1.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.m}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{logius.font-size.m}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  },
+  "components/logius/paragraph": {
+    "utrecht": {
+      "paragraph": {
+        "color": {
+          "type": "color",
+          "value": "{logius.color.foreground}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{logius.font-size.m}",
+          "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.m}",
+          "type": "lineHeights"
+        }
+      },
+      "paragraph-lead": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.paragraph.color}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{logius.font-size.l}",
+          "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.l}",
+          "type": "lineHeights"
+        }
+      },
+      "paragraph-small-print": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.paragraph.color}"
+        },
+        "font-family": {
+          "value": "{logius.font-family.default}",
+          "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{logius.font-size.s}",
+          "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{logius.font.line-height.s}",
+          "type": "lineHeights"
+        }
+      }
+    }
+  },
+  "components/avatar": {
+    "nl": {
+      "avatar": {
+        "background-color": {
+          "value": "{utrecht.interaction.color}",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "{voorbeeld.border-radius.round}",
+          "type": "borderRadius"
+        },
+        "size": {
+          "value": "{utrecht.pointer-target.min-size}",
+          "type": "sizing"
+        },
+        "icon": {
+          "icon-size": {
+            "value": "{utrecht.icon.functional.size}",
+            "type": "sizing"
+          }
+        },
+        "border-color": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "color": {
+          "value": "{voorbeeld.color.white}",
+          "type": "color"
+        },
+        "text": {
+          "font-family": {
+            "value": "{utrecht.document.font-family}",
+            "type": "fontFamilies"
+          },
+          "font-weight": {
+            "value": "{utrecht.document.strong.font-weight}",
+            "type": "fontWeights"
+          },
+          "line-height": {
+            "value": "{utrecht.document.line-height}",
+            "type": "lineHeights"
+          },
+          "text-transform": {
+            "value": "uppercase",
+            "type": "textCase"
+          },
+          "font-size": {
+            "value": "{utrecht.document.font-size}",
+            "type": "fontSizes"
+          }
+        },
+        "border-width": {
+          "value": "{voorbeeld.border-width.sm}",
+          "type": "borderWidth"
+        },
+        "hover": {
+          "background-color": {
+            "value": "{utrecht.interaction.hover.color}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "color": {
+            "value": "{voorbeeld.color.white}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "components/accordion": {
+    "utrecht": {
+      "accordion": {
+        "border-radius": {
+          "type": "borderRadius",
+          "value": "0px"
+        },
+        "section": {
+          "border-block-end-width": {
+            "type": "borderWidth",
+            "value": "{voorbeeld.border-width.sm}"
+          },
+          "border-width": {
+            "type": "borderWidth",
+            "value": "auto"
+          },
+          "border-color": {
+            "value": "{utrecht.line.border-color}",
+            "type": "color"
+          }
+        },
+        "body": {
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "border-width": {
+            "type": "borderWidth",
+            "value": "{voorbeeld.border-width.lg}"
+          },
+          "padding-block-end": {
+            "value": "{voorbeeld.space.block.rabbit}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{voorbeeld.space.block.rabbit}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "{voorbeeld.space.inline.mouse}",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{voorbeeld.space.inline.mouse}",
+            "type": "spacing"
+          }
+        },
+        "button": {
+          "font-size": {
+            "value": "{utrecht.document.font-size}",
+            "type": "fontSizes"
+          },
+          "line-height": {
+            "value": "{utrecht.document.line-height}",
+            "type": "lineHeights"
+          },
+          "icon": {
+            "margin-inline": {
+              "value": "{voorbeeld.space.inline.beetle}",
+              "type": "spacing"
+            },
+            "size": {
+              "type": "sizing",
+              "value": "{utrecht.icon.functional.size}"
+            }
+          },
+          "padding-block-end": {
+            "value": "{voorbeeld.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{voorbeeld.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "{voorbeeld.space.inline.mouse}",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{voorbeeld.space.inline.mouse}",
+            "type": "spacing"
+          },
+          "hover": {
+            "background-color": {
+              "type": "color",
+              "value": "{voorbeeld.color.gray.100}"
+            },
+            "border-color": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.hover.color}"
+            }
+          },
+          "expanded": {
+            "background-color": {
+              "value": "{voorbeeld.color.gray.50}",
+              "type": "color"
+            },
+            "border-color": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.color}"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{voorbeeld.color.gray.50}"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{utrecht.interaction.color}"
+          },
+          "focus": {
+            "background-color": {
+              "type": "color",
+              "value": "{utrecht.focus.background-color}"
+            },
+            "border-color": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.focus.color}"
+            }
+          },
+          "active": {
+            "background-color": {
+              "type": "color",
+              "value": "{voorbeeld.color.gray.200}"
+            },
+            "border-color": {
+              "value": "transparent",
+              "type": "color"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.active.color}"
+            }
+          },
+          "border-width": {
+            "type": "borderWidth",
+            "value": "{voorbeeld.border-width.sm}"
+          },
+          "font-family": {
+            "value": "{utrecht.document.font-family}",
+            "type": "fontFamilies"
+          },
+          "font-weight": {
+            "value": "{utrecht.document.strong.font-weight}",
+            "type": "fontWeights"
+          }
+        }
+      }
+    }
+  },
+  "components/blockquote": {
+    "utrecht": {
+      "blockquote": {
+        "attribution": {
+          "font-size": {
+            "value": "{voorbeeld.typography.font-size.sm}",
+            "type": "fontSizes"
+          },
+          "font-family": {
+            "value": "{utrecht.document.font-family}",
+            "type": "fontFamilies"
+          },
+          "line-height": {
+            "value": "{voorbeeld.typography.line-height.md}",
+            "type": "lineHeights"
+          },
+          "font-weight": {
+            "value": "{utrecht.document.font-weight}",
+            "type": "fontWeights"
+          },
+          "padding-block-start": {
+            "value": "{voorbeeld.space.block.snail}",
+            "type": "spacing"
+          },
+          "color": {
+            "value": "{utrecht.document.subtle.color}",
+            "type": "color"
+          }
+        },
+        "content": {
+          "font-family": {
+            "value": "{utrecht.heading.font-family}",
+            "type": "fontFamilies"
+          },
+          "line-height": {
+            "value": "{voorbeeld.typography.line-height.sm}",
+            "type": "lineHeights"
+          },
+          "font-weight": {
+            "value": "{utrecht.document.font-weight}",
+            "type": "fontWeights"
+          },
+          "font-size": {
+            "value": "{voorbeeld.typography.font-size.xl}",
+            "type": "fontSizes"
+          },
+          "color": {
+            "value": "{utrecht.document.color}",
+            "type": "color"
+          }
+        },
+        "padding-block-end": {
+          "value": "{voorbeeld.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{voorbeeld.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "0px",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "0px",
+          "type": "spacing"
+        },
+        "background-color": {
+          "value": "transparent",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "components/breadcrumb": {
+    "utrecht": {
+      "breadcrumb": {
+        "line-height": {
+          "value": "{utrecht.document.line-height}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{utrecht.document.font-size}",
+          "type": "fontSizes"
+        },
+        "link": {
+          "icon": {
+            "size": {
+              "type": "sizing",
+              "value": "{utrecht.icon.functional.size}"
+            },
+            "margin-inline": {
+              "value": "{voorbeeld.space.inline.beetle}",
+              "type": "spacing"
+            }
+          },
+          "padding-block-end": {
+            "value": "{voorbeeld.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{voorbeeld.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "0px",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "0px",
+            "type": "spacing"
+          },
+          "color": {
+            "type": "color",
+            "value": "{utrecht.interaction.color}"
+          },
+          "active": {
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.active.color}"
+            },
+            "text-decoration": {
+              "value": "none",
+              "type": "textDecoration"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "type": "color",
+              "value": "{utrecht.focus.background-color}"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.focus.color}"
+            },
+            "text-decoration": {
+              "value": "none",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.hover.color}"
+            },
+            "text-decoration": {
+              "value": "none",
+              "type": "textDecoration"
+            }
+          },
+          "current": {
+            "color": {
+              "type": "color",
+              "value": "{utrecht.document.subtle.color}"
+            }
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        },
+        "divider": {
+          "size": {
+            "type": "sizing",
+            "value": "{voorbeeld.size.2xs}"
+          },
+          "color": {
+            "value": "{utrecht.document.subtle.color}",
+            "type": "color"
+          }
+        },
+        "margin-inline": {
+          "value": "{voorbeeld.space.inline.beetle}",
+          "type": "spacing"
+        },
+        "font-family": {
+          "value": "{utrecht.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.document.font-weight}",
+          "type": "fontWeights"
         }
       }
     }
@@ -2155,98 +2375,6 @@
       }
     }
   },
-  "components/heading": {
-    "utrecht": {
-      "heading-1": {
-        "color": {
-          "type": "color",
-          "value": "{logius.color.foreground}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "Bold",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.2xl}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{logius.font-size.2xl}",
-          "type": "fontSizes"
-        }
-      },
-      "heading-2": {
-        "color": {
-          "type": "color",
-          "value": "{logius.color.foreground}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{utrecht.heading-1.font-weight}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.xl}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{logius.font-size.xl}",
-          "type": "fontSizes"
-        }
-      },
-      "heading-3": {
-        "color": {
-          "type": "color",
-          "value": "{logius.color.foreground}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{utrecht.heading-1.font-weight}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.l}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{logius.font-size.l}",
-          "type": "fontSizes"
-        }
-      },
-      "heading-4": {
-        "color": {
-          "type": "color",
-          "value": "{logius.color.foreground}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{utrecht.heading-1.font-weight}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.m}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{logius.font-size.m}",
-          "type": "fontSizes"
-        }
-      }
-    }
-  },
   "components/icon-only-button": {
     "utrecht": {
       "icon-only-button": {
@@ -2265,88 +2393,6 @@
         "padding-inline-start": {
           "value": "{voorbeeld.space.inline.snail}",
           "type": "spacing"
-        }
-      }
-    }
-  },
-  "components/link": {
-    "utrecht": {
-      "link": {
-        "line-height": {
-          "value": "{logius.font.line-height.m}",
-          "type": "lineHeights"
-        },
-        "color": {
-          "type": "color",
-          "value": "{logius.color.donkerblauw.300}"
-        },
-        "text-decoration-color": {
-          "type": "color",
-          "value": "{utrecht.link.color}"
-        },
-        "active": {
-          "text-decoration": {
-            "value": "none",
-            "type": "textDecoration"
-          }
-        },
-        "focus": {
-          "text-decoration": {
-            "value": "none",
-            "type": "textDecoration"
-          },
-          "text-decoration-thickness": {
-            "value": "auto",
-            "type": "other"
-          }
-        },
-        "hover": {
-          "color": {
-            "type": "color",
-            "value": "{logius.color.donkerblauw.400}"
-          },
-          "text-decoration": {
-            "value": "none",
-            "type": "textDecoration"
-          },
-          "text-decoration-thickness": {
-            "value": "auto",
-            "type": "other"
-          }
-        },
-        "text-decoration": {
-          "value": "underline",
-          "type": "textDecoration"
-        },
-        "icon": {
-          "size": {
-            "type": "sizing",
-            "value": "{logius.icon-size.default}"
-          },
-          "margin-inline": {
-            "value": "{logius.space.05-x}",
-            "type": "spacing"
-          }
-        },
-        "font-size": {
-          "value": "{logius.font-size.m}",
-          "type": "fontSizes"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "text-decoration-thickness": {
-          "value": "auto",
-          "type": "other"
-        },
-        "text-underline-offset": {
-          "value": "auto",
-          "type": "other"
-        },
-        "font-weight": {
-          "value": "Regular",
-          "type": "fontWeights"
         }
       }
     }
@@ -2685,76 +2731,6 @@
             "value": "{utrecht.document.font-weight}",
             "type": "fontWeights"
           }
-        }
-      }
-    }
-  },
-  "components/paragraph": {
-    "utrecht": {
-      "paragraph": {
-        "color": {
-          "type": "color",
-          "value": "{logius.color.foreground}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-size": {
-          "value": "{logius.font-size.m}",
-          "type": "fontSizes"
-        },
-        "font-weight": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.m}",
-          "type": "lineHeights"
-        }
-      },
-      "paragraph-lead": {
-        "color": {
-          "type": "color",
-          "value": "{utrecht.paragraph.color}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-size": {
-          "value": "{logius.font-size.l}",
-          "type": "fontSizes"
-        },
-        "font-weight": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.l}",
-          "type": "lineHeights"
-        }
-      },
-      "paragraph-small-print": {
-        "color": {
-          "type": "color",
-          "value": "{utrecht.paragraph.color}"
-        },
-        "font-family": {
-          "value": "{logius.font-family.default}",
-          "type": "fontFamilies"
-        },
-        "font-size": {
-          "value": "{logius.font-size.s}",
-          "type": "fontSizes"
-        },
-        "font-weight": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{logius.font.line-height.s}",
-          "type": "lineHeights"
         }
       }
     }
@@ -3942,12 +3918,15 @@
     "tokenSetOrder": [
       "brand",
       "common",
+      "components/logius/alert",
+      "components/logius/button",
+      "components/logius/link",
+      "components/logius/heading",
+      "components/logius/paragraph",
       "components/avatar",
       "components/accordion",
-      "components/alert",
       "components/blockquote",
       "components/breadcrumb",
-      "components/button",
       "components/checkbox",
       "components/checkbox-group",
       "components/counter-badge",
@@ -3959,12 +3938,9 @@
       "components/form-field-label",
       "components/form-field-option-label",
       "components/form-field-radio-option",
-      "components/heading",
       "components/icon-only-button",
-      "components/link",
       "components/ordered-list",
       "components/pagination",
-      "components/paragraph",
       "components/radio",
       "components/radio-group",
       "components/select",
