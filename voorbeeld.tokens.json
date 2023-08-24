@@ -1049,6 +1049,48 @@
         "min-inline-size": {
           "type": "sizing",
           "value": "0"
+        },
+        "subtle-copy": {
+          "hover": {
+            "background-color": {
+              "type": "color",
+              "value": "{utrecht.button.subtle.background-color}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{utrecht.button.subtle.border-color}"
+            },
+            "color": {
+              "type": "color",
+              "value": "{logius.color.brand.hover}"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "transparent"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "transparent"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.brand.default}"
+          },
+          "disabled": {
+            "background-color": {
+              "type": "color",
+              "value": "{utrecht.button.subtle.background-color}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{utrecht.button.subtle.border-color}"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.button.disabled.color}"
+            }
+          }
         }
       }
     }
@@ -3913,6 +3955,104 @@
       }
     }
   },
+  "change brand/DigiD": {
+    "logius": {
+      "color": {
+        "brand": {
+          "default": {
+            "value": "{logius.color.oranje.300}",
+            "type": "color",
+            "description": "Change this color to your brand"
+          },
+          "subdued": {
+            "value": "{logius.color.oranje.100}",
+            "type": "color",
+            "description": "Change this color to your brand"
+          },
+          "hover": {
+            "value": "{logius.color.oranje.400}",
+            "type": "color",
+            "description": "Change this color to your brand"
+          }
+        }
+      }
+    },
+    "utrecht": {
+      "button": {
+        "font-size": {
+          "value": "19",
+          "type": "fontSizes"
+        },
+        "secondary-action": {
+          "hover": {
+            "background-color": {
+              "type": "color",
+              "value": "{logius.color.hover.background}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{utrecht.button.secondary-action.border-color}"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.button.secondary-action.color}"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{logius.color.background}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{logius.color.border}"
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.foreground}"
+          }
+        },
+        "subtle": {
+          "hover": {
+            "background-color": {
+              "type": "color",
+              "value": "{logius.color.hover.background}"
+            },
+            "color": {
+              "type": "color",
+              "value": "{logius.color.foreground}"
+            }
+          },
+          "color": {
+            "type": "color",
+            "value": "{logius.color.foreground}"
+          }
+        }
+      }
+    }
+  },
+  "change brand/MijnOverheid": {
+    "logius": {
+      "color": {
+        "brand": {
+          "default": {
+            "value": "{logius.color.hemelblauw.300}",
+            "type": "color",
+            "description": "Change this color to your brand"
+          },
+          "subdued": {
+            "value": "{logius.color.hemelblauw.100}",
+            "type": "color",
+            "description": "Change this color to your brand"
+          },
+          "hover": {
+            "value": "{logius.color.hemelblauw.400}",
+            "type": "color",
+            "description": "Change this color to your brand"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -3951,7 +4091,9 @@
       "components/table",
       "components/textarea",
       "components/text-input",
-      "components/unordered-list"
+      "components/unordered-list",
+      "change brand/DigiD",
+      "change brand/MijnOverheid"
     ]
   }
 }
