@@ -4053,6 +4053,16 @@
       }
     }
   },
+  "test/card": {
+    "logius": {
+      "card": {
+        "size": {
+          "value": "500",
+          "type": "sizing"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -4093,7 +4103,8 @@
       "components/text-input",
       "components/unordered-list",
       "change brand/DigiD",
-      "change brand/MijnOverheid"
+      "change brand/MijnOverheid",
+      "test/card"
     ]
   }
 }
