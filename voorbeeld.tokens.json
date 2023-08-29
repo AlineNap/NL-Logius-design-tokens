@@ -4057,7 +4057,7 @@
     "logius": {
       "card": {
         "size": {
-          "value": "400",
+          "value": "500",
           "type": "sizing"
         }
       }
