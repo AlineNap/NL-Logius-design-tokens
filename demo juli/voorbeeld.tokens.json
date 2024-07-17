@@ -5253,7 +5253,74 @@
       }
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "5ea15c5255f487835b566d718ca358b2ac158af6",
+      "name": "default",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "brand": "enabled"
+      },
+      "group": "brand"
+    },
+    {
+      "id": "505121e8005e2b1cbf7f84b4c78b415ccdb43b33",
+      "name": "default",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "common": "enabled"
+      },
+      "group": "common"
+    },
+    {
+      "id": "b72cc51b4289a1b498fbb5a02e83d88ffad8ab81",
+      "name": "default",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "components/accordion": "enabled",
+        "components/alert": "enabled",
+        "components/avatar": "enabled",
+        "components/backdrop": "enabled",
+        "components/blockquote": "enabled",
+        "components/breadcrumb": "enabled",
+        "components/button": "enabled",
+        "components/button-group": "enabled",
+        "components/checkbox": "enabled",
+        "components/checkbox-group": "enabled",
+        "components/counter-badge": "enabled",
+        "components/drawer": "enabled",
+        "components/form-field": "enabled",
+        "components/form-field-checkbox-option": "enabled",
+        "components/form-field-description": "enabled",
+        "components/form-field-error-message": "enabled",
+        "components/form-field-label": "enabled",
+        "components/form-field-option-label": "enabled",
+        "components/form-field-radio-option": "enabled",
+        "components/heading": "enabled",
+        "components/icon-only-button": "enabled",
+        "components/link": "enabled",
+        "components/modal-dialog": "enabled",
+        "components/ordered-list": "enabled",
+        "components/pagination": "enabled",
+        "components/paragraph": "enabled",
+        "components/radio": "enabled",
+        "components/radio-group": "enabled",
+        "components/select": "enabled",
+        "components/separator": "enabled",
+        "components/side-nav": "enabled",
+        "components/skip-link": "enabled",
+        "components/status-badge": "enabled",
+        "components/summary-list": "enabled",
+        "components/table": "enabled",
+        "components/task-list": "enabled",
+        "components/textarea": "enabled",
+        "components/text-input": "enabled",
+        "components/toolbar-button": "enabled",
+        "components/unordered-list": "enabled"
+      },
+      "group": "component"
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "brand",
