@@ -1,0 +1,142 @@
+{
+  "lux": {
+    "color": {
+      "foreground": {
+        "default": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.grijs.700}",
+          "description": "Standaard kleur voor teksten en iconen. Gebruik deze voor body content, titels en labels."
+        },
+        "subdued": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.grijs.500}",
+          "description": "Gebruik voor content die extra context biedt, maar niet essentieel is om de interface te begrijpen."
+        },
+        "onEmphasis": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.wit}",
+          "description": "Tekst en iconen die op een sterke achtergrond staan. Zoals het label in de primaire button of links in de footer."
+        },
+        "link": {
+          "value": "{lux.color.donkerblauw.500}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "default": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.wit}",
+          "description": "Achtergrond kleur"
+        },
+        "subdued": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.grijs.200}",
+          "description": "Subtiele achtergrond kleur"
+        },
+        "hover": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.grijs.300}",
+          "description": "Kleur van elementen als je eroverheen gaat met je muis"
+        }
+      },
+      "border": {
+        "default": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.grijs.500}",
+          "description": "Border kleur"
+        },
+        "subdued": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.grijs.400}",
+          "description": "Subtiele border"
+        },
+        "strong": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.foreground.default}",
+          "description": ""
+        }
+      },
+      "canvas": {
+        "parent": "mode/light",
+        "type": "color",
+        "value": "{lux.color.grijs.200}",
+        "description": "Gebruik deze kleur voor de achtergrond van de website, hierbovenop komen de background kleuren."
+      },
+      "feedback": {
+        "success": {
+          "default": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.groen.500}",
+            "description": "Gebruik deze kleur om een positieve boodschap te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.groen.50}",
+            "description": "Gebruik deze kleur om een positieve boodschap te highlighten."
+          }
+        },
+        "info": {
+          "default": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.hemelblauw.500}",
+            "description": "Gebruik deze kleur om een informatieve boodschap te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.hemelblauw.50}",
+            "description": "Gebruik deze kleur om een informatieve boodschap te highlighten."
+          }
+        },
+        "error": {
+          "default": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.rood.500}",
+            "description": "Gebruik deze kleur om een negatieve boodschap te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.rood.50}",
+            "description": "Gebruik deze kleur om een negatieve boodschap te highlighten."
+          }
+        },
+        "warning": {
+          "default": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.donkergeel.500}",
+            "description": "Gebruik deze kleur om een waarschuwing te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "type": "color",
+            "value": "{lux.color.donkergeel.50}",
+            "description": "Gebruik deze kleur om een waarschuwing te highlighten."
+          }
+        }
+      },
+      "focus": {
+        "outline": {
+          "parent": "mode/light",
+          "type": "color",
+          "value": "{lux.color.border.strong}",
+          "description": "Outline kleur voor de focus state."
+        }
+      }
+    }
+  }
+}

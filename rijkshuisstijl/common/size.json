@@ -1,0 +1,10 @@
+{
+  "lux": {
+    "target": {
+      "size": {
+        "value": "48px",
+        "type": "sizing"
+      }
+    }
+  }
+}
