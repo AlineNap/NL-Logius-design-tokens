@@ -1,0 +1,28 @@
+{
+  "ro": {
+    "focus": {
+      "outline-color": {
+        "value": "{ro.color.lintblauw.500}",
+        "type": "color"
+      },
+      "outline-offset": {
+        "value": "2px",
+        "type": "other"
+      },
+      "outline-style": {
+        "value": "solid",
+        "type": "other"
+      },
+      "outline-width": {
+        "value": "2px",
+        "type": "borderWidth"
+      }
+    },
+    "form-control": {
+      "border-width": {
+        "value": "{voorbeeld.border-width.sm}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

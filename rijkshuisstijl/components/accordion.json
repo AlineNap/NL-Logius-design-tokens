@@ -123,7 +123,7 @@
         "focus": {
           "background-color": {
             "type": "color",
-            "value": "{utrecht.focus.background-color}"
+            "value": "{ro.focus.background-color}"
           },
           "border-color": {
             "value": "transparent",
@@ -131,7 +131,7 @@
           },
           "color": {
             "type": "color",
-            "value": "{utrecht.focus.color}"
+            "value": "{ro.focus.color}"
           }
         },
         "active": {

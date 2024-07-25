@@ -153,7 +153,7 @@
           }
         },
         "border-width": {
-          "value": "{utrecht.form-control.border-width}",
+          "value": "{ro.form-control.border-width}",
           "type": "borderWidth"
         }
       },
@@ -176,7 +176,7 @@
         "value": "{voorbeeld.border-radius.round}"
       },
       "border-width": {
-        "value": "{utrecht.form-control.border-width}",
+        "value": "{ro.form-control.border-width}",
         "type": "borderWidth"
       }
     }

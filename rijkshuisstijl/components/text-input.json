@@ -82,7 +82,7 @@
         "type": "borderWidth"
       },
       "border-width": {
-        "value": "{utrecht.form-control.border-width}",
+        "value": "{ro.form-control.border-width}",
         "type": "borderWidth"
       },
       "focus": {

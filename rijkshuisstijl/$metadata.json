@@ -8,6 +8,7 @@
     "common/color",
     "common/size",
     "common/font",
+    "common/focus",
     "overwrite/tablet",
     "overwrite/lint",
     "components/accordion",

@@ -75,7 +75,7 @@
           "type": "color"
         },
         "border-width": {
-          "value": "{utrecht.form-control.border-width}",
+          "value": "{ro.form-control.border-width}",
           "type": "borderWidth"
         },
         "disabled": {
@@ -161,7 +161,7 @@
           "type": "color"
         },
         "border-width": {
-          "value": "{utrecht.form-control.border-width}",
+          "value": "{ro.form-control.border-width}",
           "type": "borderWidth"
         },
         "disabled": {
@@ -234,7 +234,7 @@
         }
       },
       "border-width": {
-        "value": "{utrecht.form-control.border-width}",
+        "value": "{ro.form-control.border-width}",
         "type": "borderWidth"
       },
       "hover": {
