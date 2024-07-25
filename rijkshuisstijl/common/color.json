@@ -1,27 +1,27 @@
 {
-  "lux": {
+  "ro": {
     "color": {
       "foreground": {
         "default": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.grijs.700}",
+          "value": "{ro.color.grijs.700}",
           "description": "Standaard kleur voor teksten en iconen. Gebruik deze voor body content, titels en labels."
         },
         "subdued": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.grijs.500}",
+          "value": "{ro.color.grijs.500}",
           "description": "Gebruik voor content die extra context biedt, maar niet essentieel is om de interface te begrijpen."
         },
         "onEmphasis": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.wit}",
+          "value": "{ro.color.wit}",
           "description": "Tekst en iconen die op een sterke achtergrond staan. Zoals het label in de primaire button of links in de footer."
         },
         "link": {
-          "value": "{lux.color.donkerblauw.500}",
+          "value": "{ro.color.donkerblauw.500}",
           "type": "color"
         }
       },
@@ -29,19 +29,19 @@
         "default": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.wit}",
+          "value": "{ro.color.wit}",
           "description": "Achtergrond kleur"
         },
         "subdued": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.grijs.200}",
+          "value": "{ro.color.grijs.200}",
           "description": "Subtiele achtergrond kleur"
         },
         "hover": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.grijs.300}",
+          "value": "{ro.color.grijs.300}",
           "description": "Kleur van elementen als je eroverheen gaat met je muis"
         }
       },
@@ -49,26 +49,26 @@
         "default": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.grijs.500}",
+          "value": "{ro.color.grijs.500}",
           "description": "Border kleur"
         },
         "subdued": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.grijs.400}",
+          "value": "{ro.color.grijs.400}",
           "description": "Subtiele border"
         },
         "strong": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.foreground.default}",
+          "value": "{ro.color.foreground.default}",
           "description": ""
         }
       },
       "canvas": {
         "parent": "mode/light",
         "type": "color",
-        "value": "{lux.color.grijs.200}",
+        "value": "{ro.color.grijs.200}",
         "description": "Gebruik deze kleur voor de achtergrond van de website, hierbovenop komen de background kleuren."
       },
       "feedback": {
@@ -76,13 +76,13 @@
           "default": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.groen.500}",
+            "value": "{ro.color.groen.500}",
             "description": "Gebruik deze kleur om een positieve boodschap te benadrukken."
           },
           "subdued": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.groen.50}",
+            "value": "{ro.color.groen.50}",
             "description": "Gebruik deze kleur om een positieve boodschap te highlighten."
           }
         },
@@ -90,13 +90,13 @@
           "default": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.hemelblauw.500}",
+            "value": "{ro.color.hemelblauw.500}",
             "description": "Gebruik deze kleur om een informatieve boodschap te benadrukken."
           },
           "subdued": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.hemelblauw.50}",
+            "value": "{ro.color.hemelblauw.50}",
             "description": "Gebruik deze kleur om een informatieve boodschap te highlighten."
           }
         },
@@ -104,13 +104,13 @@
           "default": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.rood.500}",
+            "value": "{ro.color.rood.500}",
             "description": "Gebruik deze kleur om een negatieve boodschap te benadrukken."
           },
           "subdued": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.rood.50}",
+            "value": "{ro.color.rood.50}",
             "description": "Gebruik deze kleur om een negatieve boodschap te highlighten."
           }
         },
@@ -118,13 +118,13 @@
           "default": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.donkergeel.500}",
+            "value": "{ro.color.donkergeel.500}",
             "description": "Gebruik deze kleur om een waarschuwing te benadrukken."
           },
           "subdued": {
             "parent": "mode/light",
             "type": "color",
-            "value": "{lux.color.donkergeel.50}",
+            "value": "{ro.color.donkergeel.50}",
             "description": "Gebruik deze kleur om een waarschuwing te highlighten."
           }
         }
@@ -133,8 +133,53 @@
         "outline": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{lux.color.border.strong}",
+          "value": "{ro.color.border.strong}",
           "description": "Outline kleur voor de focus state."
+        }
+      },
+      "primary": {
+        "50": {
+          "value": "{ro.color.mintgroen.50}",
+          "type": "color"
+        },
+        "100": {
+          "value": "{ro.color.mintgroen.100}",
+          "type": "color"
+        },
+        "200": {
+          "value": "{ro.color.mintgroen.200}",
+          "type": "color"
+        },
+        "300": {
+          "value": "{ro.color.mintgroen.300}",
+          "type": "color"
+        },
+        "400": {
+          "value": "{ro.color.mintgroen.400}",
+          "type": "color"
+        },
+        "500": {
+          "value": "{ro.color.mintgroen.500}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{ro.color.primary.500}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.3",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "accent": {
+        "500": {
+          "value": "{ro.color.lichtblauw.500}",
+          "type": "color"
         }
       }
     }

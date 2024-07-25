@@ -1,8 +1,14 @@
 {
-  "lux": {
+  "ro": {
     "target": {
       "size": {
         "value": "48px",
+        "type": "sizing"
+      }
+    },
+    "icon": {
+      "functional": {
+        "value": "16px",
         "type": "sizing"
       }
     }

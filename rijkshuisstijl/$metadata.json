@@ -8,6 +8,8 @@
     "common/color",
     "common/size",
     "common/font",
+    "overwrite/tablet",
+    "overwrite/lint",
     "components/accordion",
     "components/alert",
     "components/avatar",

@@ -1,27 +1,39 @@
 {
-  "lux": {
+  "ro": {
     "font-weight": {
-      "regular": {
-        "type": "fontWeights",
-        "value": "Regular"
+      "black": {
+        "value": "900",
+        "type": "fontWeights"
       },
-      "bold": {
+      "extra-bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "semi-bold": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "light": {
         "type": "fontWeights",
-        "value": "Bold"
+        "value": "300"
+      },
+      "thin": {
+        "value": "100",
+        "type": "fontWeights"
       }
-    }
-  },
-  "rh": {
+    },
     "font-family": {
-      "sans": {
+      "primary": {
         "type": "fontFamilies",
-        "value": "RijksoverheidSansWebText, Arial, Verdana, sans-serif",
-        "description": "De Sans Web wordt toegepast voor langere (lees-)teksten."
+        "value": "RijksoverheidSansWebText, Arial, Verdana, sans-serif"
       },
-      "serif": {
+      "secondary": {
         "type": "fontFamilies",
-        "value": "RijksoverheidSerifWeb, 'Times New Roman', serif",
-        "description": "Serif Web is vooral interessant voor de afwisseling in bijvoorbeeld digitale magazines."
+        "value": "RijksoverheidSerifWeb, 'Times New Roman', serif"
       }
     }
   }
