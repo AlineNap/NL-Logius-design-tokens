@@ -3,16 +3,16 @@
     "link": {
       "color": {
         "type": "color",
-        "value": "{utrecht.interaction.color}"
+        "value": "{ro.color.foreground.link}"
       },
       "text-decoration-color": {
         "type": "color",
-        "value": "{utrecht.interaction.color}"
+        "value": "{ro.color.foreground.link}"
       },
       "active": {
         "color": {
           "type": "color",
-          "value": "{utrecht.interaction.active.color}"
+          "value": "{ro.color.paars.500}"
         },
         "text-decoration": {
           "value": "None",
@@ -22,11 +22,11 @@
       "focus": {
         "background-color": {
           "type": "color",
-          "value": "{ro.focus.background-color}"
+          "value": "{ro.color.none}"
         },
         "color": {
           "type": "color",
-          "value": "{ro.focus.color}"
+          "value": "{ro.color.foreground.link}"
         },
         "text-decoration": {
           "value": "None",
@@ -40,7 +40,16 @@
       "hover": {
         "color": {
           "type": "color",
-          "value": "{utrecht.interaction.hover.color}"
+          "value": "{ro.color.foreground.link}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.3",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "text-decoration": {
           "value": "None",
@@ -54,7 +63,7 @@
       "visited": {
         "color": {
           "type": "color",
-          "value": "{utrecht.interaction.color}"
+          "value": "{ro.color.paars.500}"
         }
       },
       "text-decoration": {
@@ -64,11 +73,11 @@
       "icon": {
         "size": {
           "type": "sizing",
-          "value": "{ro.icon.functional.size}"
+          "value": "{ro.size.icon.functional}"
         }
       },
       "column-gap": {
-        "value": "{voorbeeld.space.text.beetle}",
+        "value": "{ro.space.50}",
         "type": "spacing"
       },
       "text-decoration-thickness": {
@@ -78,6 +87,22 @@
       "text-underline-offset": {
         "value": "auto",
         "type": "other"
+      },
+      "font-family": {
+        "value": "{ro.font-family.primary}",
+        "type": "fontFamilies"
+      },
+      "font-weight": {
+        "value": "{ro.font-weight.normal}",
+        "type": "fontWeights"
+      },
+      "font-size": {
+        "value": "{ro.paragraph.default}",
+        "type": "fontSizes"
+      },
+      "line-height": {
+        "value": "{ro.paragraph.line-height}",
+        "type": "lineHeights"
       }
     }
   }

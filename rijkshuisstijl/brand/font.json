@@ -17,6 +17,10 @@
         "value": "500",
         "type": "fontWeights"
       },
+      "normal": {
+        "value": "400",
+        "type": "fontWeights"
+      },
       "light": {
         "type": "fontWeights",
         "value": "300"

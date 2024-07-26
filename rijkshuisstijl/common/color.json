@@ -5,13 +5,13 @@
         "default": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{ro.color.grijs.700}",
+          "value": "{ro.color.zwart}",
           "description": "Standaard kleur voor teksten en iconen. Gebruik deze voor body content, titels en labels."
         },
         "subdued": {
           "parent": "mode/light",
           "type": "color",
-          "value": "{ro.color.grijs.500}",
+          "value": "{ro.color.grijs.700}",
           "description": "Gebruik voor content die extra context biedt, maar niet essentieel is om de interface te begrijpen."
         },
         "onEmphasis": {
@@ -68,7 +68,7 @@
       "canvas": {
         "parent": "mode/light",
         "type": "color",
-        "value": "{ro.color.grijs.200}",
+        "value": "{ro.color.wit}",
         "description": "Gebruik deze kleur voor de achtergrond van de website, hierbovenop komen de background kleuren."
       },
       "feedback": {
@@ -127,14 +127,6 @@
             "value": "{ro.color.donkergeel.50}",
             "description": "Gebruik deze kleur om een waarschuwing te highlighten."
           }
-        }
-      },
-      "focus": {
-        "outline": {
-          "parent": "mode/light",
-          "type": "color",
-          "value": "{ro.color.border.strong}",
-          "description": "Outline kleur voor de focus state."
         }
       },
       "primary": {

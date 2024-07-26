@@ -1,15 +1,15 @@
 {
   "ro": {
-    "target": {
-      "size": {
+    "size": {
+      "target": {
         "value": "48px",
         "type": "sizing"
-      }
-    },
-    "icon": {
-      "functional": {
-        "value": "16px",
-        "type": "sizing"
+      },
+      "icon": {
+        "functional": {
+          "value": "16px",
+          "type": "sizing"
+        }
       }
     }
   }

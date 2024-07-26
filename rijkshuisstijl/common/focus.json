@@ -16,6 +16,12 @@
       "outline-width": {
         "value": "2px",
         "type": "borderWidth"
+      },
+      "inverse": {
+        "outline-color": {
+          "value": "{ro.color.lintblauw.500}",
+          "type": "color"
+        }
       }
     },
     "form-control": {

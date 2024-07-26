@@ -24,7 +24,7 @@
       "icon": {
         "size": {
           "type": "sizing",
-          "value": "{ro.icon.functional}"
+          "value": "{ro.size.icon.functional}"
         }
       },
       "font-family": {
@@ -40,7 +40,7 @@
         "type": "fontWeights"
       },
       "line-height": {
-        "value": "1.875rem",
+        "value": "{ro.paragraph.line-height}",
         "type": "lineHeights"
       },
       "padding-block-end": {
@@ -117,11 +117,11 @@
       },
       "min-block-size": {
         "type": "sizing",
-        "value": "{ro.target.size}"
+        "value": "{ro.size.target}"
       },
       "min-inline-size": {
         "type": "sizing",
-        "value": "{ro.target.size}"
+        "value": "{ro.size.target}"
       },
       "column-gap": {
         "value": "{ro.space.100}",

@@ -30,6 +30,10 @@
       "default": {
         "value": "1.25rem",
         "type": "fontSizes"
+      },
+      "line-height": {
+        "value": "1.875rem",
+        "type": "lineHeights"
       }
     }
   }
