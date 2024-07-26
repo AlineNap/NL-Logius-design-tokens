@@ -109,29 +109,35 @@
           }
         }
       },
+      "accent": {
+        "500": {
+          "value": "{ro.color.lichtblauw.500}",
+          "type": "color"
+        }
+      },
       "primary": {
         "50": {
-          "value": "{ro.color.mintgroen.50}",
+          "value": "{ro.color.lintblauw.50}",
           "type": "color"
         },
         "100": {
-          "value": "{ro.color.mintgroen.100}",
+          "value": "{ro.color.lintblauw.100}",
           "type": "color"
         },
         "200": {
-          "value": "{ro.color.mintgroen.200}",
+          "value": "{ro.color.lintblauw.200}",
           "type": "color"
         },
         "300": {
-          "value": "{ro.color.mintgroen.300}",
+          "value": "{ro.color.lintblauw.300}",
           "type": "color"
         },
         "400": {
-          "value": "{ro.color.mintgroen.400}",
+          "value": "{ro.color.lintblauw.400}",
           "type": "color"
         },
         "500": {
-          "value": "{ro.color.mintgroen.500}",
+          "value": "{ro.color.lintblauw.500}",
           "type": "color"
         },
         "hover": {
@@ -146,12 +152,6 @@
               }
             }
           }
-        }
-      },
-      "accent": {
-        "500": {
-          "value": "{ro.color.lichtblauw.500}",
-          "type": "color"
         }
       }
     }
