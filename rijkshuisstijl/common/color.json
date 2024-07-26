@@ -25,26 +25,6 @@
           "type": "color"
         }
       },
-      "background": {
-        "default": {
-          "parent": "mode/light",
-          "type": "color",
-          "value": "{ro.color.wit}",
-          "description": "Achtergrond kleur"
-        },
-        "subdued": {
-          "parent": "mode/light",
-          "type": "color",
-          "value": "{ro.color.grijs.200}",
-          "description": "Subtiele achtergrond kleur"
-        },
-        "hover": {
-          "parent": "mode/light",
-          "type": "color",
-          "value": "{ro.color.grijs.300}",
-          "description": "Kleur van elementen als je eroverheen gaat met je muis"
-        }
-      },
       "border": {
         "default": {
           "parent": "mode/light",

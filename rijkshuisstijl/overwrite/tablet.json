@@ -2,33 +2,33 @@
   "ro": {
     "heading": {
       "level-1": {
-        "value": "2.813rem",
+        "value": "{ro.font-size.xl.tablet}",
         "type": "fontSizes"
       },
       "level-2": {
-        "value": "2.25rem",
+        "value": "{ro.font-size.lg.tablet}",
         "type": "fontSizes"
       },
       "level-3": {
-        "value": "1.688rem",
+        "value": "{ro.font-size.md.tablet}",
         "type": "fontSizes"
       },
       "level-4": {
-        "value": "1.35rem",
+        "value": "{ro.font-size.sm.tablet}",
         "type": "fontSizes"
       },
       "level-5": {
-        "value": "1.125rem",
+        "value": "{ro.font-size.xs.tablet}",
         "type": "fontSizes"
       }
     },
     "paragraph": {
       "intro": {
-        "value": "1.35rem",
+        "value": "{ro.font-size.sm.tablet}",
         "type": "fontSizes"
       },
       "default": {
-        "value": "1.125rem",
+        "value": "{ro.font-size.xs.tablet}",
         "type": "fontSizes"
       }
     }

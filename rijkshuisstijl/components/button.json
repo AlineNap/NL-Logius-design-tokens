@@ -36,7 +36,7 @@
         "type": "fontSizes"
       },
       "font-weight": {
-        "value": "{ro.font-weight.extra-bold}",
+        "value": "{ro.font-weight.bold}",
         "type": "fontWeights"
       },
       "line-height": {
@@ -183,7 +183,7 @@
           }
         },
         "font-weight": {
-          "value": "{ro.font-weight.extra-bold}",
+          "value": "{ro.font-weight.bold}",
           "type": "fontWeights"
         },
         "active": {
@@ -274,7 +274,7 @@
           }
         },
         "font-weight": {
-          "value": "{ro.font-weight.extra-bold}",
+          "value": "{ro.font-weight.bold}",
           "type": "fontWeights"
         },
         "active": {
@@ -306,7 +306,7 @@
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{ro.font-weight.extra-bold}",
+          "value": "{ro.font-weight.bold}",
           "type": "fontWeights"
         },
         "hover": {

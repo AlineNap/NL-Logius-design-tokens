@@ -93,7 +93,7 @@
         "type": "fontFamilies"
       },
       "font-weight": {
-        "value": "{ro.font-weight.normal}",
+        "value": "{ro.font-weight.regular}",
         "type": "fontWeights"
       },
       "font-size": {

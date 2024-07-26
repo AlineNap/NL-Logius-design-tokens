@@ -9,6 +9,8 @@
     "common/size",
     "common/font",
     "common/focus",
+    "common/border",
+    "common/keep",
     "overwrite/tablet",
     "overwrite/lint",
     "components/accordion",
