@@ -8,6 +8,10 @@
           "value": "{ro.color.zwart}",
           "description": "Standaard kleur voor teksten en iconen. Gebruik deze voor body content, titels en labels."
         },
+        "lint": {
+          "value": "{ro.color.lintblauw.500}",
+          "type": "color"
+        },
         "subdued": {
           "parent": "mode/light",
           "type": "color",
