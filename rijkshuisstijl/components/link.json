@@ -97,11 +97,11 @@
         "type": "fontWeights"
       },
       "font-size": {
-        "value": "{ro.paragraph.default}",
+        "value": "{ro.font-size.paragraph.default}",
         "type": "fontSizes"
       },
       "line-height": {
-        "value": "{ro.paragraph.line-height}",
+        "value": "{ro.line-height.paragraph}",
         "type": "lineHeights"
       }
     }

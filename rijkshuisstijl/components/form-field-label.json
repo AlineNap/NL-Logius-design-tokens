@@ -10,7 +10,7 @@
         "type": "fontFamilies"
       },
       "font-size": {
-        "value": "{ro.paragraph.default}",
+        "value": "{ro.font-size.paragraph.default}",
         "type": "fontSizes"
       },
       "font-weight": {
