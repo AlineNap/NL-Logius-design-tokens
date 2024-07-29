@@ -3,18 +3,18 @@
     "form-field-description": {
       "color": {
         "type": "color",
-        "value": "{utrecht.document.subtle.color}"
+        "value": "{ro.color.foreground.link}"
       },
       "font-family": {
-        "value": "{utrecht.document.font-family}",
+        "value": "{ro.font-family.primary}",
         "type": "fontFamilies"
       },
       "font-size": {
-        "value": "{utrecht.document.font-size}",
+        "value": "{ro.paragraph.default}",
         "type": "fontSizes"
       },
       "line-height": {
-        "value": "{utrecht.document.line-height}",
+        "value": "{ro.line-height.md}",
         "type": "lineHeights"
       }
     }

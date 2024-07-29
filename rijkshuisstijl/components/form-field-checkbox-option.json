@@ -2,7 +2,7 @@
   "todo": {
     "form-field-checkbox-option": {
       "column-gap": {
-        "value": "{voorbeeld.space.column.snail}",
+        "value": "0",
         "type": "spacing"
       }
     }

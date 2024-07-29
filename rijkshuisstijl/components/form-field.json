@@ -3,15 +3,15 @@
     "form-field": {
       "invalid": {
         "border-inline-start-color": {
-          "value": "{utrecht.feedback.negative.border-color}",
+          "value": "{ro.color.feedback.error.default}",
           "type": "color"
         },
         "border-inline-start-width": {
-          "value": "{voorbeeld.border-width.md}",
+          "value": "0",
           "type": "borderWidth"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "0",
           "type": "spacing"
         }
       }
